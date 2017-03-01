@@ -2,14 +2,124 @@
 /*   576px - 768px */
 
 /* Element styles: */
-
-
+body {
+	margin: 0 auto;
+}
 
 /* Classes: */
 
+.navigation-container {
+	display:none;
+}
+
 .container {
-	background-color:blue;
+	/*background-color:blue;*/
+	width: 575px;
+	margin: 0 auto;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+
+	-webkit-box-shadow: 0px 6px 20px 5px rgba(0,0,0,0.45);
+	-moz-box-shadow: 0px 6px 20px 5px rgba(0,0,0,0.45);
+	box-shadow: 0px 6px 20px 5px rgba(0,0,0,0.45);
+}
+
+.headshot-container {
+	height: 20em;
+	width: 100%;
+	text-align: center;
+	background-color: lightblue;
+}
+
+
+.information-block {
+	width: calc(100% - 2em);
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+.information-block h1 {
+	margin-bottom: 0px;
+	text-decoration: underline;
+}
+
+.information-block p {
+	margin-top: 0px;
+}
+
+.nav-placeholder {
+	height: 50px;
+}
+
+.nav-container-small {
+	background-color: #686a6d;
+	text-align:center;
+}
+
+.nav-small {
+	list-style-type: none;
+	overflow:hidden;
+	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+.nav-small li {
+	float: left;
+	width: 60px;
+	height: 50px;
+	line-height: 50px;
+	margin-left:20px;
+	margin-right: 20px;
+	text-align:center;
+}
+
+.nav-small li a {
+	color:white;
+	text-decoration: none;
+}
+
+/* when user scrolls below headshot/name */
+.scrollBelowHeader {
+	position: fixed;
+	top: 0;
+	box-shadow: 0 7px 5px -5px rgba(0, 0, 0, .5);
+	width: 574px;
 }
 
 /*Id's: */
- 
+
+#headshot {
+	height: 15em;
+	width: 15em;
+
+	margin-top: 2em;
+	margin-bottom: 2em;
+
+	background: url('../images/small-headshot.jpg');
+
+	display:inline-block;
+	border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	
+	-webkit-box-shadow: 0px 4px 16px 10px rgba(66,63,66,0.59);
+	-moz-box-shadow: 0px 4px 16px 10px rgba(66,63,66,0.59);
+	box-shadow: 0px 4px 16px 10px rgba(66,63,66,0.59);
+
+}
+
+#name {
+	font-weight: 200;
+	font-size: 300%;
+	text-align: center;
+	border-bottom: 1px solid grey;
+	background-color: lightblue;
+	height: 1.5em;
+}
+
+#name span {
+	font-family: 'Fugaz One', cursive;
+	color:black;
+}

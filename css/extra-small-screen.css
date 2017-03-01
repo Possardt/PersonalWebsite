@@ -28,6 +28,10 @@ label[for="nav-trigger"] {
 	/*background-color:lightblue;*/
 }
 
+.mobile-navigation-container {
+	display: block;
+}
+
 .headshot-container {
 	height: 15em;
 	width: 100%;
@@ -123,7 +127,11 @@ label[for="nav-trigger"] {
 	position: fixed;
 	width: 100%;
 	top: 0;
+	box-shadow: 0 7px 5px 0px rgba(0, 0, 0, .5);
+}
 
+.nav-small {
+	display:none;
 }
 
 /*Id's: */
@@ -141,7 +149,6 @@ label[for="nav-trigger"] {
 	border-radius: 200px 200px 200px 200px;
 	-moz-border-radius: 200px 200px 200px 200px;
 	-webkit-border-radius: 200px 200px 200px 200px;
-	border: 6px solid #ffffff;
 	
 	-webkit-box-shadow: 0px 4px 16px 10px rgba(66,63,66,0.59);
 	-moz-box-shadow: 0px 4px 16px 10px rgba(66,63,66,0.59);
@@ -158,6 +165,12 @@ label[for="nav-trigger"] {
 	height: 1.5em;
 	
 }
+
+#name span {
+	font-family: 'Fugaz One', cursive;
+	color:black;
+}
+
 #name-placeholder {
 	font-weight: 200;
 	font-size: 250%;

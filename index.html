@@ -6,76 +6,91 @@
 		<meta http-equiv='X-UA-Compatible' content='IE-edge'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 		<!-- Stylesheets: -->
-		<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
 		<link rel='stylesheet' href="css/main.css">
 		<link rel='stylesheet' media="(max-width: 575px)" href="css/extra-small-screen.css">
-		<link rel='stylesheet' media="(min-width: 576px)" href="css/small-screen.css">
-		<link rel='stylesheet' media="(min-width: 768px)" href="css/medium-screen.css">
-		<link rel='stylesheet' media="(min-width: 992px)" href="css/large-screen.css">
+		<link rel='stylesheet' media="(min-width: 576px) and (max-width: 768px)" href="css/small-screen.css">
+		<link rel='stylesheet' media="(min-width: 769px) and (max-width: 992px)" href="css/medium-screen.css">
+		<link rel='stylesheet' media="(min-width: 993px)" href="css/large-screen.css">
 		<!-- if needed add xl screen -->
 		<!-- jquery cdn-->
 		<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
-		<script rel='javascript' media="(max-width: 575px)" src='scripts/small-screen.js'></script>
+		<script rel='javascript' src='scripts/main.js'></script>
 	</head>
 	<body>
 	<div class="container">
-		<ul class="navigation">
-		    <li class="nav-item"><a href="#">Home</a></li>
-    		<li class="nav-item"><a href="#">About</a></li>
-    		<li class="nav-item"><a href="#">Work</a></li>
-    		<li class="nav-item"><a href="#">Contact</a></li>
-		</ul>
-
-		<input type="checkbox" id="nav-trigger" class="nav-trigger" />
-		<label for="nav-trigger"></label>
-
+		<div class='navigation-container'>
+			<ul class="navigation">
+		    	<li class="nav-item"><a href="#">Home</a></li>
+    			<li class="nav-item"><a href="#">About</a></li>
+    			<li class="nav-item"><a href="#">Work</a></li>
+    			<li class="nav-item"><a href="#">Contact</a></li>
+			</ul>
+			<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+			<label for="nav-trigger"></label>
+		</div>
 	<div class='site-wrap'>
-	<div class="headshot-container">
-		<div id="headshot"></div>
-	</div>
-	<div id='scroll-anchor'></div>
-	<div class='row'>
-		<div style="display:none;" id='name-placeholder'>sometext</div>
-	</div>
-	<div class='row'>
-		<div id='name'>Ryan Possardt</div>
-	</div>
-	<div class='row'>
-		<div class='information-block'>
-			<h1>Hello.</h1>
-			<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+		<div class="headshot-container">
+			<div id="headshot"></div>
 		</div>
-	</div>
-	<div class='row'>
-		<div class='information-block'>
-			<h1>About.</h1>
-			<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-		</div>
-	</div>
-	<div class='row'>
-		<div class='information-block'>
-			<h1>Work.</h1>
-			<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-		</div>
-	</div>
-	<div class='row'>
-		<div class='information-block'>
-			<h1>Contact.</h1>
-			<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-		</div>
-	</div>
+		<div id='scroll-anchor'></div>
 		<div class='row'>
-		<div class='information-block'>
-			<h1>Contact.</h1>
-			<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+			<div style="display:none;" id='name-placeholder'>sometext</div>
 		</div>
-	</div>
 		<div class='row'>
-		<div class='information-block'>
-			<h1>Contact.</h1>
-			<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+			<div id='name'>
+				<span>Ryan Possardt</span>
+			</div>
 		</div>
-	</div>
+		<div class='row'>
+			<div style='display:none;' class='nav-placeholder'>sometext</div>
+		</div>
+		<div class='nav-container-small'>
+			<ul class='nav-small'>
+				<li class=''><a href='#'>Home</a></li>
+				<li class=''><a href='#'>About</a></li>
+				<li class=''><a href='#'>Work</a></li>
+				<li class=''><a href='#'>Resume</a></li>
+				<li class=''><a href='#'>Contact</a></li>
+			</ul>
+		</div>
+		<div class='row'>
+			<div class='information-block'>
+				<h1>Hello.</h1>
+				<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='information-block'>
+				<h1>About.</h1>
+				<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='information-block'>
+				<h1>Work.</h1>
+				<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='information-block'>
+				<h1>Contact.</h1>
+				<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+			</div>
+		</div>
+			<div class='row'>
+			<div class='information-block'>
+				<h1>Contact.</h1>
+				<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+			</div>
+		</div>
+			<div class='row'>
+			<div class='information-block'>
+				<h1>Contact.</h1>
+				<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+			</div>
+		</div>
 	</div>
 	</div>
 

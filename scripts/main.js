@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	//scroll function listener for nav bar
 	$(window).on('scroll', function(){
-		if(screen.width <= 575){
+		if($(window).width() <= 575){
 			var scroll = $(window).scrollTop();
 			var headerHeight = $('.headshot-container').height();	
 

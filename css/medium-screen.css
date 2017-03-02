@@ -85,7 +85,7 @@ body {
 .scrollBelowHeader {
 	position: fixed;
 	top: 0;
-	box-shadow: 0 7px 5px -5px rgba(0, 0, 0, .5);
+	box-shadow: 0 7px 5px 0px rgba(0, 0, 0, .5);
 	width: 765px;
 }
 

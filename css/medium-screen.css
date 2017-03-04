@@ -87,6 +87,7 @@ body {
 	top: 0;
 	box-shadow: 0 7px 5px 0px rgba(0, 0, 0, .5);
 	width: 765px;
+	background-color: rgba(104, 106, 109, 0.65);
 }
 
 /*Id's: */
@@ -112,15 +113,19 @@ body {
 }
 
 #name {
-	font-weight: 200;
-	font-size: 350%;
 	text-align: center;
 	border-bottom: 1px solid grey;
 	background-color: lightblue;
-	height: 1.5em;
+	color: white;
 }
 
-#name span {
+#name .full-name{
 	font-family: 'Fugaz One', cursive;
-	color:black;
+	font-size: 3.5em;
+}
+
+#name .title {
+	font-family: 'Fugaz One', cursive;
+	color: white;
+	font-size: 2em;
 }

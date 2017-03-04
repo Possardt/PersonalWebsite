@@ -15,7 +15,7 @@ $(document).ready(function(){
 			}
 		}else{
 			var scroll = $(window).scrollTop();
-			var navHeight = $('.headshot-container').height() + 60;	
+			var navHeight = $('.headshot-container').height() + $('#name').height();	
 
 			if(scroll > navHeight){
 				$('.nav-container-small').addClass('scrollBelowHeader');

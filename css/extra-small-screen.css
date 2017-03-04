@@ -156,19 +156,19 @@ label[for="nav-trigger"] {
 
 }
 
-#name {
+#name .full-name{
 	font-weight: 200;
 	font-size: 250%;
 	text-align: center;
 	border-bottom: 1px solid grey;
 	background-color: lightblue;
 	height: 1.5em;
-	
+	font-family: 'Fugaz One', cursive;
+	color:white;
 }
 
-#name span {
-	font-family: 'Fugaz One', cursive;
-	color:black;
+#name .title {
+	display: none;
 }
 
 #name-placeholder {

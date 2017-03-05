@@ -6,12 +6,20 @@ body {
 	margin: 0 auto;
 }
 
+label[for=nav-trigger]{
+	display:none;
+}
 
 /* Classes: */
 
-.navigation-container {
+.navigation {
 	display:none;
 }
+
+.nav-trigger {
+	display:none;
+}
+
 
 .container {
 	width: 992px;
@@ -25,10 +33,25 @@ body {
 }
 
 .headshot-container {
-	height: 23em;
+	height: 25em;
 	width: 100%;
 	text-align: center;
 	background-color: lightblue;
+}
+
+.information-block {
+	width: calc(100% - 2em);
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+.information-block h1{
+	margin-bottom:0;
+	text-decoration: underline;
+}
+
+.information-block p {
+	margin-top:0;
 }
 
 .nav-placeholder {
@@ -74,15 +97,15 @@ body {
 	position: fixed;
 	top: 0;
 	box-shadow: 0 7px 5px 0px rgba(0, 0, 0, .5);
-	background-color: rgba(104, 106, 109, 0.65);
+	background-color: rgba(104, 106, 109, 0.85);
 	width: 992px;
 }
 
 /*Id's: */
 
 #headshot {
-	height: 19em;
-	width: 19em;
+	height: 23em;
+	width: 23em;
 
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -93,7 +116,7 @@ body {
 	border-radius: 200px 200px 200px 200px;
 	-moz-border-radius: 200px 200px 200px 200px;
 	-webkit-border-radius: 200px 200px 200px 200px;
-	
+
 	-webkit-box-shadow: 0px 4px 16px 10px rgba(66,63,66,0.59);
 	-moz-box-shadow: 0px 4px 16px 10px rgba(66,63,66,0.59);
 	box-shadow: 0px 4px 16px 10px rgba(66,63,66,0.59);
@@ -108,12 +131,12 @@ body {
 
 #name .full-name{
 	font-family: 'Fugaz One', cursive;
-	font-size: 5.5em;
+	font-size: 6em;
 }
 
 #name .title {
 	font-family: 'Fugaz One', cursive;
 	color: white;
-	font-size: 3.5em;
+	font-size: 4em;
 }
 

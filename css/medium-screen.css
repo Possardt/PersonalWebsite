@@ -1,5 +1,5 @@
 /* Mobile/tablet */
-/*   576px - 768px */
+/*   769px - 992px */
 
 /* Element styles: */
 body {
@@ -34,7 +34,7 @@ label[for=nav-trigger]{
 }
 
 .headshot-container {
-	height: 23em;
+	height: 22em;
 	width: 100%;
 	text-align: center;
 	background-color: lightblue;

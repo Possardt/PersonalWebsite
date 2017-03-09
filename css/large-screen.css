@@ -6,6 +6,14 @@ body {
 	margin: 0 auto;
 }
 
+h1 {
+	font-size: 5em;
+}
+
+p {
+	font-size: 1.5em;
+}
+
 label[for=nav-trigger]{
 	display:none;
 }
@@ -45,6 +53,17 @@ label[for=nav-trigger]{
 	margin-left: 1em;
 }
 
+/* projects section stuff */
+.project-container{
+
+}
+
+.project-picture {
+
+}
+
+
+/* end projects section stuff */
 .information-block h1{
 	margin-bottom:0;
 	text-decoration: underline;
@@ -55,7 +74,7 @@ label[for=nav-trigger]{
 }
 
 .nav-placeholder {
-	height: 50px;
+	height: 5em;
 }
 
 .nav-container-small {
@@ -74,18 +93,18 @@ label[for=nav-trigger]{
 
 .nav-small li {
 	float: left;
-	width: 85px;
-	height: 60px;
-	line-height: 60px;
-	margin-left:25px;
-	margin-right: 25px;
+	width: 7.5em;
+	height: 5em;
+	line-height: 5em;
+	margin-left: 2em;
+	margin-right: 2em;
 	text-align:center;
 }
 
 .nav-small li a {
 	color:white;
 	text-decoration: none;
-	font-size: 150%;
+	font-size: 2em;
 }
 
 .nav-small li a:hover{
@@ -99,6 +118,27 @@ label[for=nav-trigger]{
 	box-shadow: 0 7px 5px 0px rgba(0, 0, 0, .5);
 	background-color: rgba(104, 106, 109, 0.85);
 	width: 992px;
+}
+
+.footer {
+	list-style-type: none;
+	display: inline-block;
+	padding-left:0;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color:lightblue;
+	text-align: center;
+	width:100%;
+}
+
+.footer li {
+	width: 7.5em;
+	height: 5em;
+	line-height: 5em;
+	margin-left: 2em;
+	margin-right: 2em;
+	text-align:center;
+	display: inline-block;
 }
 
 /*Id's: */

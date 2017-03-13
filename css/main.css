@@ -1,4 +1,6 @@
 /* This class applies styles to all pages, regardless of screen size */
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
 
 /* Universal styles: */
 
@@ -12,6 +14,29 @@
 
 /* Element styles: */
 
+    /* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  transition: 0.3s ease-in-out;
+  font-size: 1.5em;
+  color:white;
+}
+
+[class*="zocial-"] {
+    transition: 0.5s ease-in-out;
+}
+
+.zocial-twitter:hover {
+    color: lightblue;
+}
+
+.zocial-linkedin:hover {
+    color: darkblue;
+}
+
+.zocial-github:hover {
+    color: green;
+}
 
 
 /* Classes: */
@@ -28,4 +53,3 @@
 
 
 /*Id's: */
- 

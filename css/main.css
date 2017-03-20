@@ -15,12 +15,13 @@
 /* Element styles: */
 
     /* zocial */
-}
+
 [class*="zocial-"] {
   font-family: 'zocial', sans-serif;
   font-size: 1.5em;
   color: white;
   transition: 0.5s ease-in-out;
+  text-decoration:none;
 }
 
 

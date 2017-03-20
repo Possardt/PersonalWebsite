@@ -65,10 +65,6 @@ label[for=nav-trigger]{
 	display:inline-block;
 }
 
-.project-picture {
-	height: 12em;
-}
-
 .project-title {
 	text-align:center;
 	font-size: 2em;

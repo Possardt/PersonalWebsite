@@ -94,9 +94,9 @@ label[for=nav-trigger]{
 .scrollBelowHeader {
 	position: fixed;
 	top: 0;
-	box-shadow: 0 7px 5px 0px rgba(0, 0, 0, .98);
+	box-shadow: 0 7px 5px 0px rgba(0, 0, 0, .6);
 	width: 765px;
-	background-color: rgba(104, 106, 109, 0.65);
+	background-color: rgba(104, 106, 109, 0.98);
 }
 
 /*Id's: */

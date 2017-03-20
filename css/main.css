@@ -15,6 +15,7 @@
 /* Element styles: */
 
     /* zocial */
+}
 [class*="zocial-"] {
   font-family: 'zocial', sans-serif;
   font-size: 1.5em;
@@ -33,6 +34,10 @@
 
 .zocial-github:hover {
     color: #6cc644;
+}
+
+.project-picture img {
+	width: 100%;
 }
 
 

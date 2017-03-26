@@ -43,6 +43,13 @@ label[for=nav-trigger]{
 .headshot-container {
 	width: 100%;
 	text-align: center;
+
+	background-image: url("../images/Gampel_PavilionUCONN.jpg");
+	height: 800px;
+	background-attachment: fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: cover;
 }
 
 .information-block {
@@ -127,23 +134,16 @@ label[for=nav-trigger]{
 	-moz-border-radius: 200px 200px 200px 200px;
 	-webkit-border-radius: 200px 200px 200px 200px;
 
-	-webkit-box-shadow: 0px 4px 16px 10px rgba(66,63,66,0.5);
-	-moz-box-shadow: 0px 4px 16px 10px rgba(66,63,66,0.5);
-	box-shadow: 0px 4px 16px 10px rgba(66,63,66,0.5);
+}
+
+.large-screen-name {
+	display:inline-block;
+	font-family: 'Fugaz One', cursive;
+	font-size: 5em;
+	color:white;
+	width:100%;
 }
 
 #name {
-	text-align: center;
-	border-bottom: 1px solid grey;
+	display:none;
 }
-
-#name .full-name{
-	font-family: 'Fugaz One', cursive;
-	font-size: 6em;
-}
-
-#name .title {
-	font-family: 'Fugaz One', cursive;
-	font-size: 4em;
-}
-

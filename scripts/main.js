@@ -15,7 +15,8 @@ $(document).ready(function(){
 				$('#name-placeholder').hide();
 			}
 		}else{
-			var navHeight = $('.headshot-container').height() + $('#name').height();
+			var nameContainer = $('#name').css !== "none" ? $('#name').height() : 0;
+			var navHeight = $('.headshot-container').height() + nameContainer;
 			if(scroll > navHeight){
 				$('.nav-container-small').addClass('scrollBelowHeader');
 				$('.nav-placeholder').show();

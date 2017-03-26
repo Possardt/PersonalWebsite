@@ -99,6 +99,10 @@ label[for=nav-trigger]{
 	background-color: rgba(104, 106, 109, 0.98);
 }
 
+.project-box {
+	width: calc(50% - 3px);
+}
+
 /*Id's: */
 
 #headshot {

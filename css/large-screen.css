@@ -51,38 +51,6 @@ label[for=nav-trigger]{
 	margin-left: 1em;
 }
 
-/* projects section stuff */
-.project-picture, .project-title,
-.project-description,.project-link {
-	transition: 0.3s ease-in-out;
-}
-
-.project-box{
-	height: 15em;
-	width: 33%;
-	border: 1px solid grey;
-	overflow:hidden;
-	display:inline-block;
-}
-
-.project-title {
-	text-align:center;
-	font-size: 2em;
-}
-
-.project-link {
-	text-align:center;
-}
-.project-link a {
-	color: black;
-}
-
-.project-box:hover .project-picture{
-	margin-top: -12em;
-}
-
-
-/* end projects section stuff */
 .information-block h1{
 	margin-bottom:0;
 	text-decoration: underline;
@@ -139,6 +107,9 @@ label[for=nav-trigger]{
 	width: 992px;
 }
 
+.project-box {
+	width: calc(33% - 2px);
+}
 
 /*Id's: */
 

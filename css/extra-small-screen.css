@@ -139,6 +139,12 @@ label[for="nav-trigger"] {
 	display:none;
 }
 
+.project-box {
+	width: calc(100% - 2em);
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
 /*Id's: */
 
 #headshot {

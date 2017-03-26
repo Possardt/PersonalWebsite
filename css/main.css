@@ -37,11 +37,6 @@
     color: #6cc644;
 }
 
-.project-picture img {
-	width: 100%;
-}
-
-
 /* Classes: */
 
 .container {
@@ -79,5 +74,44 @@
 	text-align:center;
 	display: inline-block;
 }
+
+/* projects section stuff */
+.project-picture, .project-title,
+.project-description,.project-link {
+	transition: 0.3s ease-in-out;
+}
+
+.project-box{
+	height: 15em;
+	width: calc(33% - 2px);
+	border: 1px solid grey;
+	overflow:hidden;
+	display:inline-block;
+}
+
+.project-picture{
+	text-align:center;
+}
+
+.project-title {
+	text-align:center;
+	font-size: 2em;
+}
+
+.project-link {
+	text-align:center;
+}
+.project-link a {
+	color: black;
+}
+
+.project-box:hover .project-picture{
+	margin-top: -15em;
+}
+
+
+
+
+/* end projects section stuff */
 
 /*Id's: */

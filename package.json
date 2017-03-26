@@ -1,0 +1,10 @@
+{
+  "name": "RyanPossardt-com",
+  "version": "0.1.0",
+  "author": "Ryan Possardt",
+  "description":"Personal website for me, Ryan Possardt.",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.3"
+  }
+}

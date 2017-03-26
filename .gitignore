@@ -1,7 +1,1 @@
-#Ignore node modules
-node_modules/
 
-#ignore node related files
-Gruntfile.js
-package.json
-.jshintrc

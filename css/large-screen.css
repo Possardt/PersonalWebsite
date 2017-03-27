@@ -118,6 +118,34 @@ label[for=nav-trigger]{
 	width: calc(33% - 2px);
 }
 
+.large-screen-buttons-container{
+	text-align:center;
+}
+
+.large-screen-buttons {
+	list-style: none;
+}
+
+.large-screen-buttons li {
+	float:left;
+}
+
+.nav-button {
+	margin-left: 1em;
+	margin-right: 1em;
+	color:black;
+	background-color:transparent;
+	border: 3px solid black;
+	font: 18px Arial bold;
+	border-radius: 10px;
+	display:inline-block;
+}
+
+.nav-button:hover {
+	transition: border 0.2s ease-in-out;
+	border: 3px solid transparent;
+}
+
 /*Id's: */
 
 #headshot {

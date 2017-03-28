@@ -120,10 +120,12 @@ label[for=nav-trigger]{
 
 .large-screen-buttons-container{
 	text-align:center;
+	display:inline-block;
 }
 
 .large-screen-buttons {
 	list-style: none;
+	padding-left:0;
 }
 
 .large-screen-buttons li {
@@ -133,12 +135,13 @@ label[for=nav-trigger]{
 .nav-button {
 	margin-left: 1em;
 	margin-right: 1em;
-	color:black;
+	color:white;
 	background-color:transparent;
-	border: 3px solid black;
-	font: 18px Arial bold;
+	border: 3px solid white;
+	font-size: 2em;
 	border-radius: 10px;
 	display:inline-block;
+
 }
 
 .nav-button:hover {

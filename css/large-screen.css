@@ -107,12 +107,13 @@ label[for=nav-trigger]{
 	font-size: 2em;
 	border-radius: 10px;
 	display:inline-block;
-
+	padding: 6px;
 }
 
 .nav-button:hover {
 	transition: border 0.2s ease-in-out;
 	border: 3px solid transparent;
+	cursor: pointer;
 }
 
 /*Id's: */

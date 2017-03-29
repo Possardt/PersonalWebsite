@@ -81,6 +81,10 @@
 	transition: 0.3s ease-in-out;
 }
 
+.project-description {
+	margin-left: 5px;
+}
+
 .project-box{
 	height: 15em;
 	width: calc(33% - 2px);

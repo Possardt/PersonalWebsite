@@ -68,7 +68,7 @@ label[for=nav-trigger]{
 }
 
 .nav-placeholder {
-	height: 5em;
+	display:none;
 }
 
 .nav-container-small {

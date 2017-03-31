@@ -127,7 +127,13 @@
 		<div class='row'>
 			<div id="contact" class='information-block'>
 				<h1>Contact.</h1>
-				<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+				<form id="emailForm" action="mailto:rpossardt@gmail.com" method="post" enctype="text/plain">
+					<input class="contact-input name" placeholder="Name" type="text" name="name"><br>
+					<input class="contact-input email" placeholder="E-mail" type="text" name="email"><br>
+
+				</form>
+				<textarea placeholder="Comment" class="contact-input comment" form="emailForm" rows="4"></textarea><br>
+				<input class="contact-input" form="emailForm" type="submit" value="Send">
 			</div>
 		</div>
 		<div class='footer-container'>

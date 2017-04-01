@@ -27,6 +27,15 @@ $(document).ready(function(){
 		}
 	});
 
+	$(window).on('resize',function(){
+		if($(window).width() > 575){
+			$('#name').removeClass('scrollBelowHeader');
+			$('#name-placeholder').hide();
+		}
+
+	});
+
+
 	$('label[for=nav-trigger]').on('click',function(){
 		if($('.nav-trigger').prop('checked') === true){
 			$(this).css('position', 'fixed');

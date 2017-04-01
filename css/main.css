@@ -12,7 +12,13 @@
 	font-family: 'Maven Pro', sans-serif;
 }
 
+
+
 /* Element styles: */
+
+textarea {
+	resize:none;
+}
 
     /* zocial */
 
@@ -117,8 +123,23 @@
 	display: none;
 }
 
+.large-screen-buttons-container{
+	display:none;
+}
 
+.contact-input.name, .contact-input.email{
+	width: 25%;
+}
 
+.contact-input.comment {
+	width: calc(100% - 4em);
+}
+
+.contact-input {
+	margin-left: 2em;
+	font-size:x-large;
+	margin-bottom: .5em;
+}
 
 /* end projects section stuff */
 

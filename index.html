@@ -21,10 +21,10 @@
 	<body>
 	<div class="container">
 			<ul class="navigation">
-		    	<li class="nav-item"><a href="#">Home</a></li>
-    			<li class="nav-item"><a href="#">About</a></li>
-    			<li class="nav-item"><a href="#">Work</a></li>
-    			<li class="nav-item"><a href="#">Contact</a></li>
+				<li class="nav-item"><a href="#">Home</a></li>
+				<li class="nav-item"><a href="#">About</a></li>
+				<li class="nav-item"><a href="#">Work</a></li>
+				<li class="nav-item"><a href="#">Contact</a></li>
 			</ul>
 			<input type="checkbox" id="nav-trigger" class="nav-trigger" />
 			<label for="nav-trigger"></label>
@@ -85,38 +85,38 @@
 				<h1>Work.</h1>
 				<div class="project-box">
 					<div class="project-picture">
-						<img src="images/fantasy.png"></img>
+						<img alt="ESPN Fantasy Football logo." src="images/fantasy.png"></img>
 					</div>
 					<div class="project-title">Fantasy FB Emailer</div>
 					<div class="project-description">
 						  Written in python, this application utilizes BeautifulSoup to scrape league info from ESPN, then formats it into an HTML email and sends it to all league members.
 					</div>
 					<div class="project-link">
-						<a href="http://www.github.com" class="zocial-github"></a>
+						<a href="https://github.com/Possardt/FantasyFootballUpdate" class="zocial-github"></a>
 					</div>
 				</div>
 				<div class="project-box">
 					<div class="project-picture">
-						<img src="images/basedefender.png"></img>
+						<img alt="Screenshot from my JavaFX base defender game." src="images/basedefender.png"></img>
 					</div>
 					<div class="project-title">BaseDefender</div>
 					<div class="project-description">
 						BaseDefender Game made using JavaFX.
 					</div>
 					<div class="project-link">
-						<a href="http://www.github.com" class="zocial-github"></a>
+						<a href="https://github.com/Possardt/BaseDefender" class="zocial-github"></a>
 					</div>
 				</div>
 				<div class="project-box">
 					<div class="project-picture">
-						<img src="images/phone-icon.png"></img>
+						<img alt="Picture of a phone silhouette." src="images/phone-icon.png"></img>
 					</div>
 					<div class="project-title">Phone Number</div>
 					<div class="project-description">
 						My take on the worst way to enter a phone number into a form.  Inspired by <a href="https://imgur.com/gallery/4f3XB">this imgur thread.</a>  Utilizes Box2Djs for physics.
 					</div>
 					<div class="project-link">
-						<a href="http://www.github.com" class="zocial-github"></a>
+						<a href="https://github.com/Possardt/PhoneNumber" class="zocial-github"></a>
 					</div>
 				</div>
 				<p>To look at all of my repos,
@@ -127,7 +127,13 @@
 		<div class='row'>
 			<div id="contact" class='information-block'>
 				<h1>Contact.</h1>
-				<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+				<form id="emailForm" action="mailto:rpossardt@gmail.com" method="post" enctype="text/plain">
+					<input class="contact-input name" placeholder="Name" type="text" name="name"><br>
+					<input class="contact-input email" placeholder="E-mail" type="text" name="email"><br>
+
+				</form>
+				<textarea placeholder="Comment" class="contact-input comment" form="emailForm" rows="4"></textarea><br>
+				<input class="contact-input" form="emailForm" type="submit" value="Send">
 			</div>
 		</div>
 		<div class='footer-container'>

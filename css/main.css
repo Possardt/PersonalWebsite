@@ -141,6 +141,12 @@ textarea {
 	margin-bottom: .5em;
 }
 
+.send-button {
+	background-color:transparent;
+	border: none;
+	text-decoration: underline;
+}
+
 /* end projects section stuff */
 
 /*Id's: */

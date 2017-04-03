@@ -108,6 +108,7 @@ label[for=nav-trigger]{
 	border-radius: 10px;
 	display:inline-block;
 	padding: 6px;
+	text-decoration: none;
 }
 
 .nav-button:hover {

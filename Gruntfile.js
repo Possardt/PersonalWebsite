@@ -8,7 +8,8 @@ module.exports = function(grunt) {
 
 	//Load the Grunt plugins.
 	grunt.loadNpmTasks('grunt-contrib-jshint');
+	grunt.loadNpmTasks('grunt-contrib-csshint');
 
 	//Register the default tasks
-	grunt.registerTask('default',['jshint']);
+	grunt.registerTask('default',['jshint', 'csshint']);
 };

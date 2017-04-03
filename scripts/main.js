@@ -51,7 +51,6 @@ $(document).ready(function(){
 	$('.home').on('click',function(){scrollTo(0)});
 	$('.about').on('click',function(){ scrollTo($('#about').position().top)});
 	$('.work').on('click',function(){ scrollTo($('#work').position().top)});
-	$('.resume').on('click',function(){ });
 	$('.contact').on('click',function(){ scrollTo($('#contact').position().top)});
 
 });

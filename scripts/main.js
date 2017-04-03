@@ -5,7 +5,7 @@ $(document).ready(function(){
 		var scroll = $(window).scrollTop();
 		if($(window).width() <= 575){
 			var headerHeight = $('#nav-trigger').prop('checked') === true ?
-								$('.navigation').height() - $('.full-name').height() :
+								$('.navigation').height() + $('.headshot-container').height() :
 								$('.headshot-container').height();
 			if(scroll > headerHeight){
 				$('#name').addClass('scrollBelowHeader');

@@ -48,9 +48,9 @@ $(document).ready(function(){
 		$('html, body').animate({scrollTop : top}, 500);
 	};
 
-	$('.home').on('click',function(){scrollTo(0)});
-	$('.about').on('click',function(){ scrollTo($('#about').position().top)});
-	$('.work').on('click',function(){ scrollTo($('#work').position().top)});
-	$('.contact').on('click',function(){ scrollTo($('#contact').position().top)});
+	$('.home').on('click',function(){scrollTo(0); });
+	$('.about').on('click',function(){ scrollTo($('#about').position().top); });
+	$('.work').on('click',function(){ scrollTo($('#work').position().top); });
+	$('.contact').on('click',function(){ scrollTo($('#contact').position().top); });
 
 });

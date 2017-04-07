@@ -1,0 +1,16 @@
+h1{
+    font-size: 5em;
+    margin-bottom: 0;
+}
+
+
+.container{
+    width: 992px;
+}
+.row{
+    width:100%;
+}
+
+.header{
+    text-align:right;
+}

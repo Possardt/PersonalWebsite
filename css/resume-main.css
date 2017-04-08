@@ -1,3 +1,54 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+    /* zocial */
+
+[class*="zocial-"] {
+  font-family: 'zocial', sans-serif;
+  font-size: 1.5em;
+  color: white;
+  transition: 0.5s ease-in-out;
+  text-decoration:none;
+}
+
+
+.zocial-twitter:hover {
+    color: #1da1f2;
+}
+
+.zocial-linkedin:hover {
+    color: #00a0dc;
+}
+
+.zocial-github:hover {
+    color: #6cc644;
+}
+
+.scroll-nav{
+	background-color: rgba(104, 106, 109, 0.98);
+	box-shadow: 0 7px 5px 0 rgba(0, 0, 0, .6);
+	color:white;
+	display:flex;
+	position:fixed;
+	top:-5em;
+}
+.scroll-nav-right{
+	margin-bottom:.5em;
+	margin-right: 2em;
+	margin-top: 1em;
+	text-align:right;
+	width: calc(75% - 2em);
+}
+.scroll-nav-left{
+	margin-bottom:.5em;
+	margin-left: 2em;
+	margin-top: 1em;
+	width: calc(25% - 2em);
+}
+
+.scroll-nav-name{
+	font-size:3em;
+}
+
 * {
     font-family: 'Raleway', sans-serif;
     box-sizing:border-box;

@@ -11,7 +11,6 @@ $(document).ready(function(){
 		}else if(isScrollNavVisible && scroll < $('.name').position().top && scrollNav.position().top >= 0){
 			scrollNav.animate({top : -90}, 200);
 			isScrollNavVisible = false;
-			console.log('hopefully don\'t call this a fuckton of times');
 		}
 
 	});

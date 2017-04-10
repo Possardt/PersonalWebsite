@@ -45,6 +45,10 @@ textarea {
 
 /* Classes: */
 
+.underline{
+	text-decoration: underline;
+}
+
 .container {
 	margin: 0 auto;
 	display: flex;

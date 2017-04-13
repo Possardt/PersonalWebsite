@@ -101,7 +101,7 @@ label[for=nav-trigger]{
 
 /*Id's: */
 
-#headshot {
+.headshot {
 	height: 15em;
 	width: 15em;
 
@@ -121,24 +121,23 @@ label[for=nav-trigger]{
 
 }
 
-#name {
-	text-align: center;
-	border-bottom: 1px solid grey;
+.full-name{
 	background-color: lightblue;
 	color: white;
-}
-
-#name .full-name{
 	font-family: 'Fugaz One', cursive;
 	font-size: 3.5em;
+	text-align: center;
 }
 
-#name .title {
-	font-family: 'Fugaz One', cursive;
+.title {
+	background-color: lightblue;
+	border-bottom: 1px solid grey;
 	color: white;
+	font-family: 'Fugaz One', cursive;
 	font-size: 2em;
+	text-align: center;
 }
 
-#nav-trigger {
+.nav-trigger {
 	display:none;
 }

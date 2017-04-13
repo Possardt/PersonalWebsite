@@ -18,7 +18,7 @@ textarea {
 
     /* zocial */
 
-[class*="zocial-"] {
+.zocial-twitter, .zocial-linkedin, .zocial-github {
   font-family: 'zocial', sans-serif;
   font-size: 1.5em;
   color: white;

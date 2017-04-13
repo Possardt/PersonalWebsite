@@ -9,10 +9,10 @@ $(document).ready(function(){
 								$('.headshot-container').height();
 			if(scroll > headerHeight){
 				$('#name').addClass('scrollBelowHeader');
-				$('#name-placeholder').show();
+				$('.name-placeholder').show();
 			}else {
 				$('#name').removeClass('scrollBelowHeader');
-				$('#name-placeholder').hide();
+				$('.name-placeholder').hide();
 			}
 		}else if($(window).width() <= 992){
 			var nameContainer = $('#name').css !== "none" ? $('#name').height() : 0;
@@ -30,7 +30,7 @@ $(document).ready(function(){
 	$(window).on('resize',function(){
 		if($(window).width() > 575){
 			$('#name').removeClass('scrollBelowHeader');
-			$('#name-placeholder').hide();
+			$('.name-placeholder').hide();
 		}
 
 	});

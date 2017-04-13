@@ -105,40 +105,36 @@ label[for=nav-trigger]{
 
 /*Id's: */
 
-#headshot {
-	height: 19em;
-	width: 19em;
-
-	margin-top: 2em;
-	margin-bottom: 2em;
-
+.headshot {
 	background: url('../images/medium-headshot.jpg');
 
-	display:inline-block;
-	border-radius: 200px 200px 200px 200px;
 	-moz-border-radius: 200px 200px 200px 200px;
 	-webkit-border-radius: 200px 200px 200px 200px;
-
+	border-radius: 200px 200px 200px 200px;
 	-webkit-box-shadow: 0 4px 16px 10px rgba(66,63,66,0.59);
 	-moz-box-shadow: 0 4px 16px 10px rgba(66,63,66,0.59);
 	box-shadow: 0 4px 16px 10px rgba(66,63,66,0.59);
 
+	display:inline-block;
+	height: 19em;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	width: 19em;
 }
 
-#name {
-	text-align: center;
-	border-bottom: 1px solid grey;
+.full-name{
 	background-color: lightblue;
 	color: white;
-}
-
-#name .full-name{
 	font-family: 'Fugaz One', cursive;
 	font-size: 4.5em;
+	text-align: center;
 }
 
-#name .title {
-	font-family: 'Fugaz One', cursive;
+.title {
+	background-color: lightblue;
+	border-bottom: 1px solid grey;
 	color: white;
+	font-family: 'Fugaz One', cursive;
 	font-size: 2.5em;
+	text-align: center;
 }

@@ -30,9 +30,6 @@ label[for=nav-trigger]{
 
 
 .container {
-	border-left: 1px solid grey;
-	border-right: 1px solid grey;
-
 	-webkit-box-shadow: 0 6px 20px 5px rgba(0,0,0,0.45);
 	-moz-box-shadow: 0 6px 20px 5px rgba(0,0,0,0.45);
 	box-shadow: 0 6px 20px 5px rgba(0,0,0,0.45);
@@ -49,7 +46,9 @@ label[for=nav-trigger]{
 	background-size: cover;
 	height: 800px;
 	text-align: center;
+	transform: translateZ(0);
 	width: 100%;
+	will-change:transform;
 }
 
 .information-block {

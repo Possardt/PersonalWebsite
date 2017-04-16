@@ -40,10 +40,11 @@ label[for=nav-trigger]{
 
 .headshot-container {
 	background-attachment: fixed;
-	background-image: url("../images/Gampel_PavilionUCONN.jpg");
+	background-image: url("../images/gampel_converted.jpg");
 	background-position:center;
-	background-size: cover;
-	height: 800px;
+	background-position-y: 0;
+	/*background-size: cover;
+	height: 800px;*/
 	text-align: center;
 	transform: translateZ(0);
 	will-change:transform;
@@ -83,6 +84,7 @@ label[for=nav-trigger]{
 
 .large-screen-buttons-container{
 	display:inline-block;
+	margin-bottom:1em;
 	text-align:center;
 }
 
@@ -117,22 +119,23 @@ label[for=nav-trigger]{
 /*Id's: */
 
 .headshot {
-	background: url('../images/large-headshot.jpg');
+	background: url('../images/medium-headshot.jpg');
 	-moz-border-radius: 200px 200px 200px 200px;
 	-webkit-border-radius: 200px 200px 200px 200px;
 	border-radius: 200px 200px 200px 200px;
 	display:inline-block;
-	height: 24em;
-	margin-bottom: 2em;
-	margin-top: 2em;
-	width: 24em;
+	height: 18em;
+	/*margin-bottom: 2em;*/
+	margin-top: 1em;
+	width: 18em;
+
 }
 
 .large-screen-name {
 	color:white;
 	display:inline-block;
 	font-family: 'Fugaz One', cursive;
-	font-size: 5em;
+	font-size: 4em;
 	width:100%;
 }
 

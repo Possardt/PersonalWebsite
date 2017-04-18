@@ -129,11 +129,11 @@ textarea {
 	display:none;
 }
 
-.contact-input.name, .contact-input.email{
+.contact-name, .contact-email{
 	width: 25%;
 }
 
-.contact-input.comment {
+.contact-comment {
 	width: calc(100% - 4em);
 }
 

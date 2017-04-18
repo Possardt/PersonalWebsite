@@ -93,6 +93,7 @@ label[for=nav-trigger]{
 	position: fixed;
 	top: 0;
 	width: 765px;
+	z-index: 5;
 }
 
 .project-box {

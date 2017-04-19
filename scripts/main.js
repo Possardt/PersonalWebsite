@@ -35,6 +35,7 @@ $(document).ready(function(){
 		if($(window).width() > 575){
 			$('#name').removeClass('scrollBelowHeader');
 			$('.name-placeholder').hide();
+			$('.codewars-badge').attr('src', 'https://www.codewars.com/users/possardt28/badges/large');
 		}else {
 			$('.codewars-badge').attr('src', 'https://www.codewars.com/users/possardt28/badges/small');
 		}

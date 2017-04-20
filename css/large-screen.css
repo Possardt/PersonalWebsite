@@ -6,10 +6,6 @@ body {
 	margin: 0 auto;
 }
 
-h1 {
-	font-size: 5em;
-}
-
 p {
 	font-size: 1.5em;
 }
@@ -56,12 +52,12 @@ label[for=nav-trigger]{
 	width: calc(100% - 2em);
 }
 
-.information-block h1{
+.information-block-h{
 	margin-bottom:0;
 	text-decoration: underline;
 }
 
-.information-block p {
+.information-block-p{
 	margin-top:0;
 }
 

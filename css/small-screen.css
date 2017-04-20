@@ -18,9 +18,9 @@ label[for=nav-trigger]{
 
 
 .container {
-	box-shadow: 0 6px 20px 5px rgba(0,0,0,0.45);
 	-webkit-box-shadow: 0 6px 20px 5px rgba(0,0,0,0.45);
 	-moz-box-shadow: 0 6px 20px 5px rgba(0,0,0,0.45);
+	box-shadow: 0 6px 20px 5px rgba(0,0,0,0.45);
 	margin: 0 auto;
 	width: 575px;
 }
@@ -39,12 +39,12 @@ label[for=nav-trigger]{
 	width: calc(100% - 2em);
 }
 
-.information-block h1 {
+.information-block-h {
 	margin-bottom: 0;
 	text-decoration: underline;
 }
 
-.information-block p {
+.information-block-p {
 	margin-top: 0;
 }
 

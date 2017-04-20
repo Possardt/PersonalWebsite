@@ -22,9 +22,9 @@ label[for=nav-trigger]{
 }
 
 .container {
-	box-shadow: 0 6px 20px 5px rgba(0,0,0,0.45);
 	-webkit-box-shadow: 0 6px 20px 5px rgba(0,0,0,0.45);
 	-moz-box-shadow: 0 6px 20px 5px rgba(0,0,0,0.45);
+	box-shadow: 0 6px 20px 5px rgba(0,0,0,0.45);
 	margin: 0 auto;
 	width: 766px;
 }
@@ -43,12 +43,12 @@ label[for=nav-trigger]{
 	width: calc(100% - 2em);
 }
 
-.information-block h1 {
+.information-block-h {
 	margin-bottom: 0;
 	text-decoration: underline;
 }
 
-.information-block p {
+.information-block-p {
 	margin-top: 0;
 }
 
@@ -89,6 +89,7 @@ label[for=nav-trigger]{
 /* when user scrolls below headshot/name */
 .scrollBelowHeader {
 	background-color: rgba(104, 106, 109, 0.98);
+	background-color: lightgrey;
 	box-shadow: 0 7px 5px 0 rgba(0, 0, 0, .6);
 	position: fixed;
 	top: 0;

@@ -54,14 +54,14 @@ label[for=nav-trigger]{
 	min-width:100%;
 	min-height:100%;
 	display:block;
-	transform: translateZ(0);
+	transform: translate3d(-50%, 0, 0);
 	will-change:transform;
 }
 
 .headshot-container {
-	text-align: center;
-	transform: translateZ(0);
-	will-change:transform;
+ 	text-align: center;
+ 	transform: translateZ(0);
+ 	will-change:transform;
 }
 
 .information-block {

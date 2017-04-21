@@ -56,6 +56,10 @@ label[for=nav-trigger]{
 	height: 50px;
 }
 
+.parallax{
+	display:none;
+}
+
 .nav-container-small {
 	background-color: #686a6d;
 	text-align:center;
@@ -92,7 +96,7 @@ label[for=nav-trigger]{
 	box-shadow: 0 7px 5px 0 rgba(0, 0, 0, .6);
 	position: fixed;
 	top: 0;
-	width: 765px;
+	width: 766px;
 }
 
 .project-box {

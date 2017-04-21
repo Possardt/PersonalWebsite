@@ -48,6 +48,10 @@ label[for=nav-trigger]{
 	margin-top: 0;
 }
 
+.parallax{
+	display:none;
+}
+
 .nav-placeholder {
 	height: 50px;
 }
@@ -87,7 +91,7 @@ label[for=nav-trigger]{
 	box-shadow: 0 7px 5px 0 rgba(0, 0, 0, .5);
 	position: fixed;
 	top: 0;
-	width: 574px;
+	width: 575px;
 }
 
 .project-box {

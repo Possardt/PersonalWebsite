@@ -141,7 +141,9 @@ p {
 	width: calc(100% - 2em);
 }
 
-/*Id's: */
+.parallax{
+	display:none;
+}
 
 .headshot {
 	background: url('../images/extra-small-headshot.jpg');

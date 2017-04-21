@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+	var parallax = 500;
 	//scroll function listener for nav bar
 	$(window).on('scroll', function(){
 		var scroll = $(window).scrollTop();
@@ -24,6 +24,9 @@ $(document).ready(function(){
 				$('.nav-container-small').removeClass('scrollBelowHeader');
 				$('.nav-placeholder').hide();
 			}
+		}else{
+			var $img = $('.parallax-img');
+			$img.css('transform', 'translate3D(-50%, ' + Math.round(scroll * .5) +  'px,0');
 		}
 	});
 

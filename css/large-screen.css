@@ -54,15 +54,11 @@ label[for=nav-trigger]{
 	min-width:100%;
 	min-height:100%;
 	display:block;
+	transform: translateZ(0);
+	will-change:transform;
 }
 
 .headshot-container {
-	background-attachment: fixed;
-	/*background-image: url("../images/gampel_converted.jpg");*/
-	background-position:center;
-	background-position-y: 0;
-	/*background-size: cover;
-	height: 800px;*/
 	text-align: center;
 	transform: translateZ(0);
 	will-change:transform;
@@ -76,6 +72,7 @@ label[for=nav-trigger]{
 
 .information-block-h{
 	margin-bottom:0;
+	font-size: 4em;
 	text-decoration: underline;
 }
 
@@ -142,10 +139,9 @@ label[for=nav-trigger]{
 	-webkit-border-radius: 200px 200px 200px 200px;
 	border-radius: 200px 200px 200px 200px;
 	display:inline-block;
-	height: 18em;
-	/*margin-bottom: 2em;*/
+	height: 19em;
 	margin-top: 1em;
-	width: 18em;
+	width: 19em;
 
 }
 

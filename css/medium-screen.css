@@ -92,8 +92,8 @@ label[for=nav-trigger]{
 
 /* when user scrolls below headshot/name */
 .scrollBelowHeader {
-	background-color: rgba(104, 106, 109, 0.98);
 	background-color: lightgrey;
+	background-color: rgba(104, 106, 109, 0.98);
 	box-shadow: 0 7px 5px 0 rgba(0, 0, 0, .6);
 	position: fixed;
 	top: 0;

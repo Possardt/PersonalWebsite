@@ -1,5 +1,9 @@
 $(document).ready(function(){
-	var parallax = 500;
+
+	if($(window).width() < 575){
+		$('.codewars-badge').attr('src', 'https://www.codewars.com/users/possardt28/badges/small');
+	}
+
 	//scroll function listener for nav bar
 	$(window).on('scroll', function(){
 		var scroll = $(window).scrollTop();
@@ -34,7 +38,11 @@ $(document).ready(function(){
 		if($(window).width() > 575){
 			$('#name').removeClass('scrollBelowHeader');
 			$('.name-placeholder').hide();
+			$('.codewars-badge').attr('src', 'https://www.codewars.com/users/possardt28/badges/large');
+		}else {
+			$('.codewars-badge').attr('src', 'https://www.codewars.com/users/possardt28/badges/small');
 		}
+
 
 	});
 

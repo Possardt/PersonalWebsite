@@ -84,7 +84,9 @@ textarea {
 /* projects section stuff */
 .project-picture, .project-title,
 .project-description,.project-link {
+	transform: translateZ(0);
 	transition: 0.3s ease-in-out;
+	will-change: transform;
 }
 
 .project-description {
@@ -92,11 +94,11 @@ textarea {
 }
 
 .project-box{
-	height: 15em;
-	width: calc(33% - 2px);
 	border: 1px solid grey;
-	overflow:hidden;
 	display:inline-block;
+	height: 15em;
+	overflow:hidden;
+	width: calc(33% - 2px);
 }
 
 .project-picture{
@@ -127,11 +129,11 @@ textarea {
 	display:none;
 }
 
-.contact-input.name, .contact-input.email{
+.contact-name, .contact-email{
 	width: 25%;
 }
 
-.contact-input.comment {
+.contact-comment {
 	width: calc(100% - 4em);
 }
 

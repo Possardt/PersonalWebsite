@@ -129,6 +129,7 @@ p {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	z-index: 5;
 }
 
 .nav-small {
@@ -173,7 +174,6 @@ p {
 	font-family: 'Fugaz One', cursive;
 	font-size: 250%;
 	font-weight: 200;
-	height: 1.5em;
 	text-align: center;
 }
 
@@ -186,6 +186,5 @@ p {
 	border-bottom: 1px solid grey;
 	font-size: 250%;
 	font-weight: 200;
-	height: 1.5em;
 	text-align: center;
 }

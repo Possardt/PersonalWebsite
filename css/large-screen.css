@@ -35,25 +35,25 @@ label[for=nav-trigger]{
 }
 
 .parallax{
-	position:absolute;
-	top: 0;
-	left:0;
-	right:0;
 	bottom:0;
+	left:0;
+	position:absolute;
+	right:0;
+	top: 0;
 	z-index: -1;
 }
 .parallax-container {
-	position:relative;
-	overflow:hidden;
 	height: 700px;
+	overflow:hidden;
+	position:relative;
 }
 .parallax-img {
-	position:absolute;
-	left:50%;
 	bottom: 0;
-	min-width:100%;
-	min-height:100%;
 	display:block;
+	left:50%;
+	min-height:100%;
+	min-width:100%;
+	position:absolute;
 	transform: translate3d(-50%, 0, 0);
 	will-change:transform;
 }
@@ -71,8 +71,8 @@ label[for=nav-trigger]{
 }
 
 .information-block-h{
-	margin-bottom:0;
 	font-size: 4em;
+	margin-bottom:0;
 	text-decoration: underline;
 }
 

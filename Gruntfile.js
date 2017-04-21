@@ -7,19 +7,23 @@ module.exports = function(grunt) {
 		csslint : {
 			srict : {
 				options : {
-					import: 2
+					import: 2,
+					"box-sizing": false,
+					"universal-selector":false
 				},
 				src: ['css/*']
 			},
 			lax : {
 				options: {
-					import: false
+					import: false,
+					"box-sizing" : false,
+					"universal-selector": false
 				},
 				src: ['css/*']
 			}
 		},
 		clean : {
-			contents : ['site_build/css/*', 'site_build/scripts/*', 'site_build/images/*', 
+			contents : ['site_build/css/*', 'site_build/scripts/*', 'site_build/images/*',
 						'site_build/resume-min.html', 'site_build/index-min.html']
 		},
 		htmlmin: {
@@ -76,7 +80,7 @@ module.exports = function(grunt) {
 	//grunt.loadNpmTasks('grunt-replace');
 
 	//Register the default tasks
-	grunt.registerTask('default',['jshint', 'csslint', 
-								  'clean', 'htmlmin', 
+	grunt.registerTask('default',['jshint', 'csslint',
+								  'clean', 'htmlmin',
 								  'cssmin','uglify','imagemin']);
 };

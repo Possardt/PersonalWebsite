@@ -30,7 +30,7 @@ $(document).ready(function(){
 			}
 		}else{
 			var $img = $('.parallax-img');
-			$img.css('transform', 'translate3D(-50%, ' + Math.round(scroll * .5) +  'px,0');
+			$img.css('transform', 'translate3D(-50%, ' + Math.round(scroll * 0.5) +  'px,0');
 		}
 	});
 

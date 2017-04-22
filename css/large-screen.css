@@ -24,6 +24,24 @@ label[for=nav-trigger]{
 	display:none;
 }
 
+.contact-name{
+	margin-top:0.5em;
+}
+.contact-name, .contact-email{
+	font-size:1.5em;
+	margin-bottom:0.5em;
+	width:30%;
+}
+
+.contact-comment{
+	font-size:1.5em;
+}
+
+.contact-input{
+	font-size:2em;
+	margin-left:0;
+}
+
 
 .container {
 	-webkit-box-shadow: 0 6px 20px 5px rgba(0,0,0,0.45);
@@ -130,8 +148,6 @@ label[for=nav-trigger]{
 	cursor: pointer;
 	transition: border 0.2s ease-in-out;
 }
-
-/*Id's: */
 
 .headshot {
 	background: url('../images/medium-headshot.jpg');

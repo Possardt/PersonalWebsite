@@ -140,3 +140,21 @@ label[for=nav-trigger]{
 .nav-trigger {
 	display:none;
 }
+
+.contact-name{
+	margin-top:0.5em;
+}
+.contact-name, .contact-email{
+	font-size:1.5em;
+	margin-bottom:0.5em;
+	width:40%;
+}
+
+.contact-comment{
+	font-size:1.5em;
+}
+
+.contact-input{
+	font-size:2em;
+	margin-left:0;
+}

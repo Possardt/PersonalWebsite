@@ -130,18 +130,8 @@ textarea {
 	display:none;
 }
 
-.contact-name, .contact-email{
-	width: 25%;
-}
-
 .contact-comment {
 	width: calc(100% - 4em);
-}
-
-.contact-input {
-	font-size:x-large;
-	margin-bottom: .5em;
-	margin-left: 2em;
 }
 
 .send-button {

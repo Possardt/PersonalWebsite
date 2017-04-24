@@ -129,3 +129,24 @@ body{
     width:100%;
 }
 
+.resume-section-title{
+	margin-bottom:0;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.school-name, .school-major, .school-minor,
+.school-gpa, .school-coursework {
+	margin-top:0.5em;
+	margin-bottom: 0;
+}

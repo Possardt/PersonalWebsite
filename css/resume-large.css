@@ -40,3 +40,17 @@ h3{
 .school-name{
     font-size: 2em;
 }
+
+.skills-list{
+    font-size:2em;
+    list-style-type: none;
+}
+
+.project-title{
+    font-size:2em;
+}
+
+.school-major, .school-minor,
+.school-gpa, .school-coursework {
+    font-size: 1.5em;
+}

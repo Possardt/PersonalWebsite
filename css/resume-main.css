@@ -147,6 +147,6 @@ body{
 
 .school-name, .school-major, .school-minor,
 .school-gpa, .school-coursework {
-	margin-top:0.5em;
 	margin-bottom: 0;
+	margin-top:0.5em;
 }

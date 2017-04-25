@@ -4,14 +4,16 @@ $(document).ready(function(){
 		$('.codewars-badge').attr('src', 'https://www.codewars.com/users/possardt28/badges/small');
 	}
 
-	var scrollLargeScreen = function(scroll){
+	var scrollLargeScreen = function(){
+		var scroll = $(window).scrollTop();
 		$('.parallax-img').css('transform', 'translate3D(-50%, ' + Math.round(scroll * 0.5) +  'px,0');
 	};
 
 	//scroll function listener for nav bar
-	$(window).on('scroll', function(){
+	$(window).on('scroll', _.throttle(function(){
 		var scroll = $(window).scrollTop();
-		if($(window).width() <= 575){
+		var width = $(window).width();
+		if(width <= 575){
 			var headerHeight = $('#nav-trigger').prop('checked') === true ?
 								$('.navigation').height() + $('.headshot-container').height() :
 								$('.headshot-container').height();
@@ -22,7 +24,7 @@ $(document).ready(function(){
 				$('#name').removeClass('scrollBelowHeader');
 				$('.name-placeholder').hide();
 			}
-		}else if($(window).width() <= 992){
+		}else if(width <= 992){
 			var nameContainer = $('#name').css !== "none" ? $('#name').height() : 0;
 			var navHeight = $('.headshot-container').height() + nameContainer;
 			if(scroll > navHeight){
@@ -33,9 +35,9 @@ $(document).ready(function(){
 				$('.nav-placeholder').hide();
 			}
 		}else{
-			window.requestAnimationFrame(scrollLargeScreen(scroll));
+			window.requestAnimationFrame(scrollLargeScreen);
 		}
-	});
+	}, 10));
 
 	$(window).on('resize',function(){
 		if($(window).width() > 575){

@@ -4,6 +4,10 @@ $(document).ready(function(){
 		$('.codewars-badge').attr('src', 'https://www.codewars.com/users/possardt28/badges/small');
 	}
 
+	var scrollLargeScreen = function(scroll){
+		$('.parallax-img').css('transform', 'translate3D(-50%, ' + Math.round(scroll * 0.5) +  'px,0');
+	};
+
 	//scroll function listener for nav bar
 	$(window).on('scroll', function(){
 		var scroll = $(window).scrollTop();
@@ -29,8 +33,7 @@ $(document).ready(function(){
 				$('.nav-placeholder').hide();
 			}
 		}else{
-			var $img = $('.parallax-img');
-			$img.css('transform', 'translate3D(-50%, ' + Math.round(scroll * 0.5) +  'px,0');
+			window.requestAnimationFrame(scrollLargeScreen(scroll));
 		}
 	});
 

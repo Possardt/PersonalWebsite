@@ -61,7 +61,7 @@ label[for=nav-trigger]{
 	z-index: -1;
 }
 .parallax-container {
-	height: 700px;
+	height: 660px;
 	overflow:hidden;
 	position:relative;
 }
@@ -150,14 +150,14 @@ label[for=nav-trigger]{
 }
 
 .headshot {
-	background: url('../images/medium-headshot.jpg');
+	background: url('../images/large-headshot.jpg');
 	-moz-border-radius: 200px 200px 200px 200px;
 	-webkit-border-radius: 200px 200px 200px 200px;
 	border-radius: 200px 200px 200px 200px;
 	display:inline-block;
-	height: 19em;
+	height: 21em;
 	margin-top: 1em;
-	width: 19em;
+	width: 21em;
 
 }
 

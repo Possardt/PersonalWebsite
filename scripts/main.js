@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 	var scrollLargeScreen = function(){
 		var scroll = $(window).scrollTop();
-		$('.parallax-img').css('transform', 'translate3D(-50%, ' + Math.round(scroll * 0.5) +  'px,0');
+		$('.parallax-img').css('transform', 'translate3D(-50%, ' + Math.round(scroll * 0.6) +  'px,0');
 	};
 
 	//scroll function listener for nav bar

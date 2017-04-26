@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 		},
 		clean : {
 			contents : ['site_build/css/*', 'site_build/scripts/*', 'site_build/images/*',
-						'site_build/resume-min.html', 'site_build/index-min.html']
+						'site_build/index.html']
 		},
 		htmlmin: {
 			site_build: {
@@ -33,8 +33,7 @@ module.exports = function(grunt) {
 					collapseWhitespace: true
 				},
 				files: {
-		 		'site_build/index.html' : 'index.html',
-				'site_build/resume.html' : 'resume.html'
+		 		'site_build/index.html' : 'index.html'
 				}
 			}
 		},
@@ -52,7 +51,6 @@ module.exports = function(grunt) {
 		uglify: {
 			site_buid: {
 				files: {
-					'site_build/scripts/resume.js' : 'scripts/resume.js',
 					'site_build/scripts/main.js' : 'scripts/main.js'
 				}
 			}

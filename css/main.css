@@ -140,6 +140,6 @@ textarea {
 	text-decoration: underline;
 }
 
-/* end projects section stuff */
-
-/*Id's: */
+.work:hover, .resume:hover, .about:hover, .contact:hover{
+	cursor:pointer;
+}

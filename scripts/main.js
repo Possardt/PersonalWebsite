@@ -61,9 +61,7 @@ $(document).ready(function(){
 	});
 
 	var scrollTo = function (top) {
-		var scrollHeaderHeight = $('.nav-container-small').height() === undefined ? 0 :
-													 $('.nav-container-small').height();
-		console.log(top - scrollHeaderHeight);
+		var scrollHeaderHeight = $('.nav-container-small').height() === undefined ? 0 : $('.nav-container-small').height();
 		$('html, body').animate({scrollTop : (top - scrollHeaderHeight)}, 500);
 	};
 

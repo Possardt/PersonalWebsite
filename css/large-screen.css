@@ -112,6 +112,8 @@ label[for=nav-trigger]{
 }
 
 .project-box {
+	margin-left: 0.15em;
+	margin-right: 0.15em;
 	width: calc(33% - 2px);
 }
 

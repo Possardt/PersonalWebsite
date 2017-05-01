@@ -65,8 +65,10 @@ $(document).ready(function(){
 		$('html, body').animate({scrollTop : (top - scrollHeaderHeight)}, 500);
 	};
 
+
 	$('.about').on('click',function(){ scrollTo($('#about').position().top); });
 	$('.work').on('click',function(){ scrollTo($('#work').position().top); });
 	$('.contact').on('click',function(){ scrollTo($('#contact').position().top); });
+
 
 });

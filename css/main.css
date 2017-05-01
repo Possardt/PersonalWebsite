@@ -83,7 +83,7 @@ textarea {
 
 /* projects section stuff */
 .project-picture, .project-title,
-.project-description,.project-link {
+.project-description,.project-link, .project-overview {
 	transform: translateZ(0);
 	transition: 0.3s ease-in-out;
 	will-change: transform;
@@ -118,8 +118,9 @@ textarea {
 	color: black;
 }
 
-.project-box:hover .project-picture{
-	margin-top: -15em;
+.project-box:hover .project-picture,
+.project-box:hover .project-overview{
+	transform:translate3d(0,-15em, 0);
 }
 
 .large-screen-name{

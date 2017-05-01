@@ -94,8 +94,8 @@ textarea {
 }
 
 .project-box{
-	border: 1px solid grey;
-	box-sizing:border-box;
+	box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.1);
+	box-sizing: border-box;
 	display:inline-block;
 	height: 15em;
 	overflow:hidden;

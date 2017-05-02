@@ -6,6 +6,9 @@ body {
 	margin: 0 auto;
 }
 
+p {
+	font-size:1.5em;
+}
 
 label[for=nav-trigger]{
 	display:none;
@@ -44,6 +47,7 @@ label[for=nav-trigger]{
 }
 
 .information-block-h {
+	font-size:3.5em;
 	margin-bottom: 0;
 	text-decoration: underline;
 }
@@ -78,15 +82,14 @@ label[for=nav-trigger]{
 	float: left;
 	height: 60px;
 	line-height: 60px;
-	margin-left:25px;
-	margin-right: 25px;
+	margin-left: 40px;
+	margin-right: 40px;
 	text-align:center;
-	width: 85px;
 }
 
 .nav-small li a {
 	color:white;
-	font-size: 150%;
+	font-size: 2em;
 	text-decoration: none;
 }
 

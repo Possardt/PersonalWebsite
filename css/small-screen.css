@@ -10,6 +10,10 @@ label[for=nav-trigger]{
 	display:none;
 }
 
+p {
+	font-size: 1.3em;
+}
+
 /* Classes: */
 
 .navigation{
@@ -40,6 +44,7 @@ label[for=nav-trigger]{
 }
 
 .information-block-h {
+	font-size: 3em;
 	margin-bottom: 0;
 	text-decoration: underline;
 }
@@ -77,11 +82,11 @@ label[for=nav-trigger]{
 	margin-left:20px;
 	margin-right: 20px;
 	text-align:center;
-	width: 60px;
 }
 
 .nav-small li a {
 	color:white;
+	font-size: 1.7em;
 	text-decoration: none;
 }
 

@@ -139,7 +139,15 @@ p {
 .project-box {
 	margin-left: 1em;
 	margin-right: 1em;
-	width: calc(100% - 2em);
+	width: 20em;
+}
+
+.projects{
+	text-align: center;
+}
+
+.project-description {
+	text-align: left;
 }
 
 .parallax{

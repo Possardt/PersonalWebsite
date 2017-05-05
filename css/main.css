@@ -94,6 +94,7 @@ textarea {
 }
 
 .project-box{
+	border-radius: 6px;
 	box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.1);
 	box-sizing: border-box;
 	display:inline-block;
@@ -104,6 +105,10 @@ textarea {
 
 .project-picture{
 	text-align:center;
+}
+
+.project-picture img {
+	border-radius: 6px;
 }
 
 .project-title {

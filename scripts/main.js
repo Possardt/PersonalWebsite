@@ -61,8 +61,10 @@ $(document).ready(function(){
 	});
 
 	var scrollTo = function (top) {
+		var scrollExtraSmallScreen = $(window).width() < 575 && $('#nav-trigger')[0].checked ? $('.navigation').height() : 0;
+		var scrollHeaderSmallScreen = $(window).width() < 575 ? $('.full-name').height() : 0;
 		var scrollHeaderHeight = $('.nav-container-small').height() === undefined ? 0 : $('.nav-container-small').height();
-		$('html, body').animate({scrollTop : (top - scrollHeaderHeight)}, 500);
+		$('html, body').animate({scrollTop : (top + scrollExtraSmallScreen - scrollHeaderSmallScreen - scrollHeaderHeight)}, 500);
 	};
 
 

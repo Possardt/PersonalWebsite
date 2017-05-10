@@ -7,17 +7,73 @@ body {
 	overflow-x: hidden;
 }
 
-label[for="nav-trigger"] {
-	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
-	background-size: contain;
+.absolute{
+	position: absolute!important;
+}
+
+.hamburger{
+	height: 35px;
+	color:black;
 	cursor: pointer;
-	height: 30px;
-	left: 15px;
 	position: fixed;
-	top: 15px;
-	width: 30px;
+	margin-left: 10px;
+	margin-top: 10px;
+	width:50px;
 	z-index: 2;
 }
+
+.hamburger span {
+	background: black;
+	border-radius: 9px;
+	display:block;
+	height: 8px;
+	position:absolute;
+	transform: rotate(0deg);
+	transition: .5s ease-in-out;
+	width:100%;
+	will-change: transform;
+}
+
+.hamburger span:nth-child(1){
+	top: 0px;
+}
+.hamburger span:nth-child(2){
+	top: 16px;
+}
+.hamburger span:nth-child(3){
+	top: 32px;
+}
+.hamburger span:nth-child(4){
+	top:32px;
+}
+
+.hamburger.open {
+	top:271px;
+}
+
+.hamburger.open span:nth-child(1){
+	opacity: 0;
+	top:32px;
+}
+
+.hamburger.open span:nth-child(2){
+	opacity: 0;
+	top:36px;
+}
+
+.hamburger.open span:nth-child(3){
+	top: 20px;
+	transform: rotate(-45deg);
+}
+
+.hamburger.open span:nth-child(4){
+	top: 20px;
+	transform: rotate(45deg);
+
+}
+
+
+
 
 h1 {
 	font-size: 3em;
@@ -107,10 +163,10 @@ p {
 .nav-trigger + label, .site-wrap {
   transition: top 0.2s;
 }
-
+/*
 .nav-trigger:checked + label {
   top: 271px;
-}
+}*/
 
 .nav-trigger:checked ~ .site-wrap {
 	box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);

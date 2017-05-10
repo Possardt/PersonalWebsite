@@ -1,14 +1,23 @@
 $(document).ready(function(){
 
-	if($(window).width() < 575){
-		$('.codewars-badge').attr('src', 'https://www.codewars.com/users/possardt28/badges/small');
-	}
+	//user defined functions
+	var scrollTo = function (top) {
+		var scrollExtraSmallScreen = $(window).width() < 575 && $('#nav-trigger')[0].checked ? $('.navigation').height() : 0;
+		var scrollHeaderSmallScreen = $(window).width() < 575 ? $('.full-name').height() : 0;
+		var scrollHeaderHeight = $('.nav-container-small').height() === undefined ? 0 : $('.nav-container-small').height();
+		$('html, body').animate({scrollTop : (top + scrollExtraSmallScreen - scrollHeaderSmallScreen - scrollHeaderHeight)}, 500);
+	};
 
 	var scrollLargeScreen = function(){
 		var scroll = $(window).scrollTop();
 		$('.parallax-img').css('transform', 'translate3D(-50%, ' + Math.round(scroll * 0.6) +  'px,0');
 	};
 
+	if($(window).width() < 575){
+		$('.codewars-badge').attr('src', 'https://www.codewars.com/users/possardt28/badges/small');
+	}
+
+	/* Listeners */
 	//scroll function listener for nav bar
 	$(window).on('scroll', _.throttle(function(){
 		var scroll = $(window).scrollTop();
@@ -47,30 +56,14 @@ $(document).ready(function(){
 		}else {
 			$('.codewars-badge').attr('src', 'https://www.codewars.com/users/possardt28/badges/small');
 		}
-
-
 	});
 
-
-	$('label[for=nav-trigger]').on('click',function(){
-		if($('.nav-trigger').prop('checked') === true){
-			$(this).css('position', 'fixed');
-		}else{
-			$(this).css('position', 'absolute');
-		}
+	$('.hamburger').on('click',function(){
+		$(this).toggleClass('open');
+		$(this).toggleClass('absolute');
 	});
-
-	var scrollTo = function (top) {
-		var scrollExtraSmallScreen = $(window).width() < 575 && $('#nav-trigger')[0].checked ? $('.navigation').height() : 0;
-		var scrollHeaderSmallScreen = $(window).width() < 575 ? $('.full-name').height() : 0;
-		var scrollHeaderHeight = $('.nav-container-small').height() === undefined ? 0 : $('.nav-container-small').height();
-		$('html, body').animate({scrollTop : (top + scrollExtraSmallScreen - scrollHeaderSmallScreen - scrollHeaderHeight)}, 500);
-	};
-
 
 	$('.about').on('click',function(){ scrollTo($('#about').position().top); });
 	$('.work').on('click',function(){ scrollTo($('#work').position().top); });
 	$('.contact').on('click',function(){ scrollTo($('#contact').position().top); });
-
-
 });

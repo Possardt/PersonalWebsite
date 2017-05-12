@@ -22,6 +22,10 @@ body {
 	z-index: 2;
 }
 
+.hamburger {
+	transition: 0.5s;
+}
+
 .hamburger span {
 	background: black;
 	border-radius: 9px;
@@ -48,7 +52,7 @@ body {
 }
 
 .hamburger.open {
-	top:271px;
+	transform: translateY(271px);
 }
 
 .hamburger.open span:nth-child(1){
@@ -160,13 +164,9 @@ p {
   position: absolute;
 }
 
-.nav-trigger + label, .site-wrap {
-  transition: top 0.2s;
+.site-wrap {
+  transition: top 0.5s;
 }
-/*
-.nav-trigger:checked + label {
-  top: 271px;
-}*/
 
 .nav-trigger:checked ~ .site-wrap {
 	box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);

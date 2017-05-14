@@ -7,6 +7,16 @@ body {
 	overflow-x: hidden;
 }
 
+h1 {
+	font-size: 3em;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+/* Classes */
+
 .absolute{
 	position: absolute!important;
 }
@@ -76,19 +86,6 @@ body {
 
 }
 
-
-
-
-h1 {
-	font-size: 3em;
-}
-
-p {
-	font-size: 1.5em;
-}
-
-/* Classes: */
-
 .mobile-navigation-container {
 	display: block;
 }
@@ -133,19 +130,19 @@ p {
 }
 
 .nav-item {
-  border-bottom: 1px solid #000;
-  border-top: 1px solid #111;
-  text-align: center;
-  width: 100%;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #111;
+	text-align: center;
+	width: 100%;
 }
 
 .nav-item a {
-  color: white;
-  display: block;
-  font-size: 1.2em;
-  padding: 1em;
-  text-decoration: none;
-  transition: color 0.2s, background 0.5s;
+	color: white;
+	display: block;
+	font-size: 1.2em;
+	padding: 1em;
+	text-decoration: none;
+	transition: color 0.2s, background 0.5s;
 }
 
 .site-wrap {
@@ -160,12 +157,12 @@ p {
 }
 
 .nav-trigger {
-  clip: rect(0, 0, 0, 0);
-  position: absolute;
+	clip: rect(0, 0, 0, 0);
+	position: absolute;
 }
 
 .site-wrap {
-  transition: top 0.5s;
+	transition: top 0.5s;
 }
 
 .nav-trigger:checked ~ .site-wrap {
